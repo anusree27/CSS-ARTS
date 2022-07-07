@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.canvas {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E83A14;
+}
+
+.circle {
+    position: relative;
+    width: 80vmin;
+    height: 80vmin;
+    border-radius: 50%;
+    background-color: #F78812;
+}
+
+.face {
+    position: absolute;
+    width: 35vmin;
+    height: 30vmin;
+    bottom: 25vmin;
+    left: 22vmin;
+    border-radius: 90% 90% 50% 50%;
+    background-color: #F6D860;
+    z-index: 2;
+}
+
+.eyes {
+    position: absolute;
+    width: 5vmin;
+    height: 5vmin;
+    bottom: 15vmin;
+    left: 22vmin;
+    box-shadow: -13vmin 0 #000;
+    border-radius: 50%;
+    background-color: #000;
+
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    0% {transform: scale(1, 0.01);}
+    100% {transform: scale(1.1);}
+}
+
+.cheeks {
+    position: absolute;
+    width: 6vmin;
+    height: 3vmin;
+    bottom: 11vmin;
+    left: 5vmin;
+    border-radius: 50%;
+    background-color: red;
+    opacity: 50%;
+    z-index: 1;
+    box-shadow: 19vmin 0 red;
+}
+
+.mouth {
+    position: absolute;
+    width: 8vmin;
+    height: 7vmin;
+    bottom: 5vmin;
+    left: 13.2vmin;
+    border-radius: 40% 30% 90% 30%;
+    transform: rotate(225deg);
+    background: red;
+
+}
+
+.hair1 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 28vmin;
+    left: 11vmin;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 90px solid red;
+    border-radius: 40%;
+    z-index: 1;
+}
+
+.hair2 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 28vmin;
+    left: 17vmin;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 90px solid red;
+    z-index: 1;
+    border-radius: 40%;
+    transform: rotate(30deg);
+}
+
+.hair3 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 28vmin;
+    left: 5vmin;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 90px solid red;
+    z-index: 1;
+    border-radius: 40%;
+    transform: rotate(-30deg);
+}

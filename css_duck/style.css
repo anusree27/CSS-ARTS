@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.canvas {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C2DED1;
+}
+
+.circle {
+    position: relative;
+    width: 80vmin;
+    height: 80vmin;
+    border-radius: 50%;
+    background-color: #FFDAAF;
+}
+
+.body {
+    position: absolute;
+    width: 42vmin;
+    height: 47vmin;
+    bottom: 19vmin;
+    left: 17vmin;
+    border-radius: 50% 50% 50% 50% / 70% 70% 40% 40%;
+    background-color: yellow;
+    border: 0.5vmin solid black;
+    z-index: 2;
+}
+
+.eyes {
+    position: absolute;
+    width: 3vmin;
+    height: 3vmin;
+    bottom: 33vmin;
+    left: 13vmin;
+    border-radius: 50%;
+    background-color: #000;
+    box-shadow: 14vmin 0 #000;
+}
+
+.mouth {
+    position: absolute;
+    width: 12vmin;
+    height: 4vmin;
+    bottom: 27vmin;
+    left: 16vmin;
+    border-radius: 50%;
+    background-color: orange;
+    border: 0.5vmin solid black;
+}
+
+.hand1 {
+    position: absolute;
+    width: 16vmin;
+    height: 6vmin;
+    bottom: 17vmin;
+    left: 34vmin;
+    border-radius: 50%;
+    background-color: yellow;
+    border-right: 0.5vmin solid black;
+    border-top: 0.5vmin solid black;
+    transform: rotate(72deg);
+}
+
+.hand2 {
+    position: absolute;
+    width: 20vmin;
+    height: 10vmin;
+    bottom: 14vmin;
+    left: -11vmin;
+    background-color: yellow;
+    border-radius: 80% 60% 70% 30%;
+    border-top: 0.5vmin solid black;
+    border-left: 0.5vmin solid black;
+    border-bottom: 0.2vmin solid orange;
+    transform: rotate(-70deg);
+    z-index: 2;
+}
+
+.knife {
+    position: absolute;
+    width: 16vmin;
+    height: 6vmin;
+    bottom: 9vmin;
+    left: 4vmin;
+    border-radius: 10% 22% 80% 50%;
+    background-color: grey;
+    border: 0.5vmin solid black;
+}
+
+.handle {
+    position: absolute;
+    width: 4vmin;
+    height: 5vmin;
+    bottom: 10vmin;
+    border-radius: 20%;
+    left: 1vmin;
+    background-color: purple;
+    border: 0.5vmin solid black;
+    z-index: 1;
+}
+
+.leg1 {
+    position: absolute;
+    width: 7vmin;
+    height: 4vmin;
+    border-radius: 50%;
+    bottom: -4vmin;
+    left: 13vmin;
+    background-color: orange;
+    border-bottom: 0.5vmin solid black;
+    border-left: 0.5vmin solid black;
+    border-right: 0.5vmin solid black;
+}
+
+.leg2 {
+    position: absolute;
+    width: 7vmin;
+    height: 4vmin;
+    border-radius: 50%;
+    bottom: -4vmin;
+    left: 22vmin;
+    background-color: orange;
+    border-bottom: 0.5vmin solid black;
+    border-left: 0.5vmin solid black;
+    border-right: 0.5vmin solid black;
+}

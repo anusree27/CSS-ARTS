@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.canvas {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #810955;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    position: relative;
+    width: 80vmin;
+    height: 80vmin;
+    border-radius: 50%;
+    background-color: #FFAB4C;
+}
+
+.face {
+    position: absolute;
+    width: 45vmin;
+    height: 35vmin;
+    bottom: 18vmin;
+    left: 17vmin;
+    border-radius: 45% 45% 50% 50%;
+    background-color: #B05B3B;
+    border: 0.5vmin solid brown;
+    z-index: 1;
+}
+
+.ears {
+    position: absolute;
+    width: 20vmin;
+    height: 20vmin;
+    top: 18vmin;
+    right: 15vmin;
+    background-color: #ac521e;
+    border-radius: 50%;
+    border: 0.5vmin solid brown;
+}
+
+.ears::after {
+    content: "";
+    position: absolute;
+    width: 20vmin;
+    height: 20vmin;
+    top: -1vmin;
+    right: 31vmin;
+    background-color: #ac521e;
+    border-radius: 50%;
+    border: 0.5vmin solid brown;
+}
+
+.earlap {
+    position: absolute;
+    width: 12vmin;
+    height: 12vmin;
+    top: 24vmin;
+    left: 18vmin;
+    border-radius: 50%;
+    box-shadow: 30vmin 0 #E89F71;
+    background-color: #E89F71;
+}
+
+.eyes {
+    position: absolute;
+    width: 6vmin;
+    height: 6vmin;
+    bottom: 17vmin;
+    left: 8vmin;
+    border-radius: 50%;
+    background-color: #000;
+    box-shadow: 21vmin 0 #000;
+}
+
+.eyeWhite {
+    position: absolute;
+    width: 1vmin;
+    height: 1vmin;
+    bottom: 21vmin;
+    left: 11vmin;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 20vmin 0 #fff;
+}
+
+.noseBig {
+    position: absolute;
+    width: 18vmin;
+    height: 14vmin;
+    bottom: 3vmin;
+    left: 12.5vmin;
+    border-radius: 70% 70% 90% 90%; 
+    border: 0.5vmin solid brown;
+    background-color: #DEA057;
+}
+
+.nose {
+    position: absolute;
+    width:5vmin;
+    height: 4vmin;
+    bottom: 10vmin;
+    left: 19vmin;
+    border-radius: 70% 70% 90% 90%;
+    background-color: #000;
+}
+
+.cheeks {
+    position: absolute;
+    width: 8vmin;
+    height: 3vmin;
+    bottom: 13vmin;
+    left: 4vmin;
+    border-radius: 50%;
+    background-color: red;
+    box-shadow: 27vmin 0 red;
+    opacity: 50%;
+}
+
+.mouth1 {
+    position: absolute;
+    width: 5vmin;
+    height: 2vmin;
+    bottom: 7vmin;
+    left: 17vmin;
+    border-radius: 50%;
+    border-bottom: 1vmin solid #000;
+    background-color: transparent;
+}
+
+.mouth2 {
+    position: absolute;
+    width: 5vmin;
+    height: 2vmin;
+    bottom: 7vmin;
+    left: 21vmin;
+    border-radius: 50%;
+    border-bottom: 1vmin solid #000;
+    background-color: transparent;
+}
+
+.line {
+    position: absolute;
+    width: 0.5vmin;
+    height: 3vmin;
+    bottom: 7.5vmin;
+    left: 21vmin;
+    background-color: #000;
+}
