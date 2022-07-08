@@ -19,3 +19,9 @@ A list of all CSS Arts
 
 # Hen 
 ![CSS_HEN](https://user-images.githubusercontent.com/85879627/177836421-251bab7a-f447-46d5-b13f-4efe0c1e5017.gif)
+
+<br><br>
+
+# Monk
+
+![image](https://user-images.githubusercontent.com/85879627/177985045-4863cdd2-3cd4-4bc8-8823-41a7b1bbb94f.png)
